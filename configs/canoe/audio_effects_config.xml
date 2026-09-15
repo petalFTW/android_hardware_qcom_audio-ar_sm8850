@@ -18,6 +18,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <library name="volume_listener" path="libvolumelistener.so"/>
         <library name="quasar" path="libquasar.so"/>
         <library name="dapdirect" path="libdapdirect.so"/>
+        <library name="bridgefx" path="libbridgefx.so"/>
     </libraries>
 
     <effects>
@@ -68,6 +69,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <effect name="notification_helper" library="volume_listener" uuid="0b776dde-0590-11e5-81ba-0025b32654a0"/>
         <effect name="quasar" library="quasar" uuid="71d0e2ee-e44d-483d-a809-09e75ee55ecd"/>
         <effect name="dapdirect" library="dapdirect" uuid="da9d0b17-dade-4daf-9b3c-d01b9a0da000" typeSameAsUuid="true"/>
+        <effect name="bridgefx" library="bridgefx" uuid="c105f001-b2d5-4a19-8e77-1c5f0b31a5d5" typeSameAsUuid="true"/>
     </effects>
 
     <postprocess>
